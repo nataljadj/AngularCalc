@@ -1,0 +1,30 @@
+#calc{
+	border: 1px red solid;
+	width: 400px;
+	margin: 0 auto;
+}
+form{
+	width: 300px;
+	margin: 0 auto;
+}
+.output{
+	border: 1px solid black;
+	height: 40px;
+	text-align: right;
+}
+input[type="button"]{
+	width: 20%;
+	margin: 5px;
+	height: 30px;
+}
+input[type="text"]{
+	width:279px;
+	height: 30px;
+	text-align: right;
+	font-size: 16px;
+	margin-top: 5px;
+	margin-left: 5px;
+}
+input[value="="]{
+	width: 95%;
+}

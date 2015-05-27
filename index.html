@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html ng-app="appCalc">
+<head>
+	<meta charset="UTF-8">
+	<title>Angular App</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.15/angular.min.js"></script>
+	<script src="js/action.js"></script>
+</head>
+<body ng-controller="myCtrl">
+	<form action="" >
+			<div class="output">{{calculator.output}}</div>
+			<input class="button" type="button" value="7" ng-click="buttonClick(7)">
+			<input class="button" type="button" value="8" ng-click="buttonClick(8)">
+			<input class="button" type="button" value="9" ng-click="buttonClick(9)"> 
+
+			<input class="button" type="button" value="/" ng-click="buttonClick('/')">
+			<input class="button" type="button" value="4" ng-click="buttonClick(4)">
+			<input class="button" type="button" value="5" ng-click="buttonClick(5)">
+			<input class="button" type="button" value="6" ng-click="buttonClick(6)">
+
+			<input class="button" type="button" value="*" ng-click="buttonClick('*')">
+			<input class="button" type="button" value="1" ng-click="buttonClick(1)">
+			<input class="button" type="button" value="2" ng-click="buttonClick(2)">
+			<input class="button" type="button" value="3" ng-click="buttonClick(3)">
+
+			<input class="button" type="button" value="-" ng-click="buttonClick('-')">
+			<input class="button" type="button" value="0" ng-click="buttonClick(0)">
+			<input class="button" type="button" value="." ng-click="buttonClick('.')">
+
+			<input class="button" type="button" value="+" ng-click="buttonClick('+')">
+			<input class="button" type="button" value="Ce" ng-click="buttonClick('Ce')">
+			<input class="button" type="button" value="=" ng-click="buttonClick('=')">
+	</form>
+</body>
+</html>
