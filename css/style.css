@@ -1,16 +1,17 @@
 #calc{
 	border: 1px red solid;
 	width: 400px;
-	margin: 0 auto;
+	margin: 12px auto;
 }
 form{
 	width: 300px;
 	margin: 0 auto;
 }
 .output{
-	border: 1px solid black;
+	background: #eee;
 	height: 40px;
 	text-align: right;
+	font-size: 30px;
 }
 input[type="button"]{
 	width: 20%;
